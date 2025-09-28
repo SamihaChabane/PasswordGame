@@ -2,7 +2,7 @@
 
 A simple yet powerful GUI application built using **JavaFX** that helps users generate strong and memorable passwords based on selected phrases and special symbols.
 
-The app displays the **password length**, estimates **password strength** against potential hackers, and allows the user to save the password either **on paper**, in a **text file**, or copy it to an online application use.
+The app displays the **password length**, estimates **password strength** against potential hackers, and allows the user to save the password either **on paper** or in a **text file**.
 
 ---
 
@@ -13,32 +13,33 @@ The app displays the **password length**, estimates **password strength** agains
 - ✅ User selects a **special symbol** from another list
 - ✅ Program generates a password by combining the selections with randomization
 - ✅ Displays:
-  - The generated password
-  - Password length
-  - Estimated strength (weak / moderate / strong / very strong)
+  1. The generated password
+  2. Password length
+  3. Estimated strength (weak / moderate / strong / very strong)
 - ✅ Option to save password:
   - To a `.txt` file
-  - Or display it for manual copying (e.g., writing it on paper)
+  - Or copy it manually (e.g., write it down on paper)
 
 ---
 
 ## 🎬 Demo
 
-*(You can add screenshots or GIFs of your app here)*
+*(Add screenshots or GIFs of your app here)*
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 1. Prerequisites
+
+Make sure you have the following installed:
 
 - Java 11 or higher
 - JavaFX SDK
-- IDE like IntelliJ IDEA, Apache NetBeans, or VS Code with JavaFX support
+- An IDE like IntelliJ IDEA, Eclipse, or VS Code with JavaFX support
 
-### Run the App
+### 2. Clone or Download the Project
 
-1. Clone or download the project:
-   ```bash
-   git clone https://github.com/yourusername/strong-password-generator-javafx.git
-   cd strong-password-generator-javafx
+```bash
+git clone https://github.com/yourusername/strong-password-generator-javafx.git
+cd strong-password-generator-javafx
