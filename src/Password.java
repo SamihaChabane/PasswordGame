@@ -1,6 +1,7 @@
 /*
 Name: Samiha Chabane
-Purpose: Final project final phase 
+Purpose: Final project final phase for a program that creates a pass word 
+from selected phrase and special character. 
  */
 //import needed tools
 import java.io.FileWriter;
@@ -188,3 +189,4 @@ public static void main(String[] args) {
 launch(args);
 }
 }
+
