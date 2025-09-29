@@ -10,7 +10,6 @@ This JavaFX application helps users generate strong, memorable passwords based o
 - 📏 **Password Length Display**
 - 🧠 **Password Strength Estimation** against brute-force attacks
 - 💾 **Save to Text File** option
-- 🖨️ **Print for Paper Copy** (simulated or integrated if printing supported)
 - 🖥️ **Clean and Intuitive JavaFX GUI**
 
 ## How It Works
@@ -19,7 +18,7 @@ This JavaFX application helps users generate strong, memorable passwords based o
 2. **Select a Special Symbol**: Pick a symbol to enhance the complexity.
 3. **Generate Password**: Click the generate button to create a strong password.
 4. **View Details**: See the password, its length, and an estimated strength rating.
-5. **Save or Print**: Choose to save the password to a `.txt` file or print it out.
+5. **Save or Print**: Choose to save the password to a `.txt` file or copy it for an online application use.
 
 ## Technologies Used
 
@@ -34,40 +33,33 @@ This JavaFX application helps users generate strong, memorable passwords based o
 
 - Java JDK 11 or later
 - JavaFX SDK (if not bundled with your IDE)
-- An IDE like IntelliJ IDEA, Eclipse, or VS Code with Java support
+- An IDE like IntelliJ IDEA, Apache NetBeans, or VS Code with Java support
 
 ### Running the App
 
 1. Clone or download this repository.
 2. Open the project in your IDE.
 3. Make sure JavaFX is properly set up in your environment.
-4. Run the `Main` class or `PasswordGeneratorApp` class (depending on your class naming).
+4. Run the `Password.java` class.
 
 ### Example Password Generation Logic
 
 The password might be generated using a combination of:
-- The selected phrase (e.g., "Sunshine")
+- The selected phrase
 - The selected symbol (e.g., "@")
-- A random or fixed pattern (e.g., random digits or capitalization)
-
-Example Output: `Sunshine@29Zp`
+- A randomly included digit
 
 ### Estimating Password Strength
 
 Password strength is calculated based on:
 - Length of the password
 - Use of upper/lowercase letters, numbers, and special symbols
-- Entropy estimation (basic or advanced)
 
-Strength Levels:
-- Weak
-- Medium
-- Strong
-- Very Strong
+Strength Levels: 0 or 1
 
 ## Saving the Password
 
-- The user can choose to save the password in a plain `.txt` file.
+- The user can choose to save the password in a plain `StrongPassword.txt` file.
 - The file will be saved in a default or user-specified location.
 
 ## Future Improvements
