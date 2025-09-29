@@ -69,9 +69,9 @@ Strength Levels: 0 or 1
 - Enhanced entropy-based strength estimation
 - Integration with a secure password manager
 
-## Demonstration
+## 🎬 Demo
 
-*(Add screenshots of your app here if available)*
+![App Demo](media/demo.gif)
 
 ## License
 
