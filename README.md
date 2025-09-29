@@ -24,7 +24,7 @@ The app displays the **password length**, estimates **password strength** agains
 
 ## 🎬 Demo
 
-*(Add screenshots or GIFs of your app here)*
+![Password Generator Demo](files/PassWrdDemo.gif)
 
 ---
 
