@@ -43,3 +43,21 @@ Make sure you have the following installed:
 ```bash
 git clone https://github.com/yourusername/strong-password-generator-javafx.git
 cd strong-password-generator-javafx
+
+### 3. Open and Configure the Project
+
+Open the project in your IDE.
+
+Link your JavaFX SDK to the project.
+
+Ensure VM options are set correctly when running:
+--module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml
+
+### 4. Run the App
+
+Run Main.java from your IDE
+
+Or from terminal:
+
+javac --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml -d out src/*.java
+java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml -cp out Main
