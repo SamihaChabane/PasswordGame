@@ -71,7 +71,7 @@ Strength Levels: 0 or 1
 
 ## 🎬 Demo
 
-![App Demo](media/demo.gif)
+![App Demo](files/PassWrdDemo.gif)
 
 ## License
 
