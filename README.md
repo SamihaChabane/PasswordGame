@@ -18,7 +18,7 @@ This JavaFX application helps users generate strong, memorable passwords based o
 2. **Select a Special Symbol**: Pick a symbol to enhance the complexity.
 3. **Generate Password**: Click the generate button to create a strong password.
 4. **View Details**: See the password, its length, and an estimated strength rating.
-5. **Save or Print**: Choose to save the password to a `.txt` file or copy it for an online application use.
+5. **Save or Print**: Choose to save the password to `StrongPassword.txt` file or copy it for an online application use.
 
 ## Technologies Used
 
